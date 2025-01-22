@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: rgb(28, 177, 28);
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: rgb(255, 53, 53);
+    --color-button-hover: rgb(254, 0, 0);
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -54,7 +54,7 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 64px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
