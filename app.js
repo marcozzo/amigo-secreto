@@ -1,5 +1,6 @@
 let amigos = [];
-let listaAmigos = document.querySelector('#listaAmigos')
+let listaAmigos = document.querySelector('#listaAmigos');
+let resultado = document.getElementById('resultado');
 
 function adicionarAmigo() {
     let nome = document.getElementById('amigo');
@@ -19,4 +20,13 @@ function atualizarLista() {
         amigo.textContent = amigos[i];
         listaAmigos.appendChild(amigo);
     }
+}
+
+function sortearAmigo(){
+    if(amigos.length < 2){
+        return alert('Adicione pelo menos dois amigos');
+    }
+
+    let numAleatorio = parseInt(Math.random() * amigos.length);
+    resultado.innerHTML = `O amigo sorteado é: ${amigos[numAleatorio]}`;
 }
