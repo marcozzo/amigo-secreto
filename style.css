@@ -149,7 +149,7 @@ ul {
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
-    background-color: var(--color-button);
+    background-color: red;
     font-size: 16px;
 }
 
